@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello Electron!</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="root"></div>
+        <script>
+            window.onload = function() {
+                require("babel-core/register")({
+                    "presets": ["es2015", "react"]
+                });
+                require("./components/main.js");
+            }
+        </script>
+    </body>
+</html>

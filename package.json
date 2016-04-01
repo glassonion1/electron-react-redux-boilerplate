@@ -4,6 +4,7 @@
     "description": "electron app",
     "main": "index.js",
     "author": "glassonion1",
+    "npmName": "electron-react-redux-boilerplate",
     "license": "MIT",
     "repository": {
         "type": "git",
